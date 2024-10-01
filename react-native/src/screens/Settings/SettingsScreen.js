@@ -121,13 +121,12 @@ function SettingsScreen({
             </Stack>
           </FormControl>
         </List.Item>
-        <Divider thickness={10} />
         <Button
           bg="danger.500"
           style={{ borderRadius: 0 }}
           onPress={() => {
             logout();
-          }}}%}>
+          }}>
           {i18n.t('AbpAccount::Logout')}
         </Button>
       </List>

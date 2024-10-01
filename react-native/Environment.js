@@ -1,5 +1,5 @@
 const yourIP = 'localhost'; // See the docs https://docs.abp.io/en/abp/latest/Getting-Started-React-Native?Tiered=No
-const port = 44305;
+const port = 44360;
 const apiUrl = `http://${yourIP}:${port}`;
 const ENV = {
   dev: {
@@ -14,9 +14,9 @@ const ENV = {
     },
   },
   prod: {
-    apiUrl: 'http://localhost:44305',
+    apiUrl: 'http://localhost:44360',
     oAuthConfig: {
-      issuer: 'http://localhost:44305',
+      issuer: 'http://localhost:44360',
       clientId: 'flights_App',
       scope: 'offline_access flights',
     },

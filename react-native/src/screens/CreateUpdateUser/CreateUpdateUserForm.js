@@ -246,7 +246,7 @@ function CreateUpdateUserForm({ editingUser = {}, submit, remove }) {
               </FormControl>
             </>
           ) : (
-            <UserRoles {...{ editingUser, onChangeRoles }}}%} />
+            <UserRoles {...{ editingUser, onChangeRoles }} />
           )}
         </Box>
       </KeyboardAvoidingView>
