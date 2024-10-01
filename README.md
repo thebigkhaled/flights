@@ -1,4 +1,4 @@
-﻿# flights
+﻿# Flights App
 
 ## About this solution
 
