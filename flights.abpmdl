@@ -1,0 +1,85 @@
+{
+  "template": "app",
+  "imports": {
+    "Volo.Abp.Account": {
+      "version": "8.3.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.OpenIddict": {
+      "version": "8.3.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.Identity": {
+      "version": "8.3.0",
+      "isInstalled": true
+    },
+    "Volo.Abp.TenantManagement": {
+      "version": "8.3.0",
+      "isInstalled": true
+    }
+  },
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {}
+    }
+  },
+  "packages": {
+    "flights.Application": {
+      "path": "src/flights.Application/flights.Application.abppkg",
+      "folder": "src"
+    },
+    "flights.Application.Tests": {
+      "path": "test/flights.Application.Tests/flights.Application.Tests.abppkg",
+      "folder": "test"
+    },
+    "flights.Domain.Shared": {
+      "path": "src/flights.Domain.Shared/flights.Domain.Shared.abppkg",
+      "folder": "src"
+    },
+    "flights.Application.Contracts": {
+      "path": "src/flights.Application.Contracts/flights.Application.Contracts.abppkg",
+      "folder": "src"
+    },
+    "flights.HttpApi": {
+      "path": "src/flights.HttpApi/flights.HttpApi.abppkg",
+      "folder": "src"
+    },
+    "flights.HttpApi.Client": {
+      "path": "src/flights.HttpApi.Client/flights.HttpApi.Client.abppkg",
+      "folder": "src"
+    },
+    "flights.EntityFrameworkCore.Tests": {
+      "path": "test/flights.EntityFrameworkCore.Tests/flights.EntityFrameworkCore.Tests.abppkg",
+      "folder": "test"
+    },
+    "flights.EntityFrameworkCore": {
+      "path": "src/flights.EntityFrameworkCore/flights.EntityFrameworkCore.abppkg",
+      "folder": "src"
+    },
+    "flights.TestBase": {
+      "path": "test/flights.TestBase/flights.TestBase.abppkg",
+      "folder": "test"
+    },
+    "flights.Domain.Tests": {
+      "path": "test/flights.Domain.Tests/flights.Domain.Tests.abppkg",
+      "folder": "test"
+    },
+    "flights.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/flights.HttpApi.Client.ConsoleTestApp/flights.HttpApi.Client.ConsoleTestApp.abppkg",
+      "folder": "test"
+    },
+    "flights.DbMigrator": {
+      "path": "src/flights.DbMigrator/flights.DbMigrator.abppkg",
+      "folder": "src"
+    },
+    "flights.HttpApi.Host": {
+      "path": "src/flights.HttpApi.Host/flights.HttpApi.Host.abppkg",
+      "folder": "src"
+    },
+    "flights.Domain": {
+      "path": "src/flights.Domain/flights.Domain.abppkg",
+      "folder": "src"
+    }
+  }
+}
